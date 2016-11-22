@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 buildscript {
     repositories {
+        mavenCentral()
         maven {
             url "https://plugins.gradle.org/m2/"
         }
@@ -68,6 +69,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.protobuf:protobuf-parent:3.1.0'
     compile 'com.google.protobuf:protobuf-java:3.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+
 
 }
 
